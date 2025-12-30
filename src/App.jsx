@@ -1,12 +1,12 @@
-import './App.css'
-import { AppRouter } from './routers/AppRouter'
+import "./App.css";
+import { AppRouter } from "./routers/AppRouter";
 import { Toaster } from "sonner";
 function App() {
   return (
     <>
-      <AppRouter/>
-      <Toaster richColors closeButton /> m 
+      <AppRouter />
+      <Toaster richColors closeButton />
     </>
-  )
+  );
 }
-export default App
+export default App;
